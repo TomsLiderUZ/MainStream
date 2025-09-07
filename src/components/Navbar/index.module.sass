@@ -1,0 +1,96 @@
+@import "../../styles/variables"
+@import "../../styles/mixins"
+.navbar
+    width: 100%
+    height: 131px
+    display: flex
+    background: #766FB2
+    padding-top: 50px
+    justify-content: space-between
+    padding-left: 59px
+    transition: height 0.3s ease // Smooth transition for height change
+    @media (max-width: 1290px)
+        padding-left: 15px
+        padding-right: 15px
+        flex-direction: column
+        align-items: flex-start
+        height: auto // faqat mobil ekranda navbar heightini oshirish
+
+    &__header
+        @media (max-width: 1290px)
+            gap: 35px
+            display: flex
+            justify-content: space-between
+            width: 100%
+
+    &__logo
+        @media (max-width: 1290px)
+            width: 250px
+
+    &__toggle
+        display: none
+        font-size: 40px
+        cursor: pointer
+        background: none
+        border: none
+        color: white
+        text-align: center
+        @media (max-width: 1290px)
+            display: flex
+            margin-top: -12px
+
+    &__section
+        display: flex
+        gap: 55px
+        transition: all 0.3s ease // Smooth transition for display change
+        @media (max-width: 1290px)
+            display: none
+            flex-direction: column
+            gap: 20px
+            width: 100%
+            justify-content: center
+            align-content: center
+            align-items: center
+            padding-bottom: 280px
+            &.navbar__section_open
+                display: flex
+                height: 100vh // mobil ekranda navbar heightini oshirish uchun
+                margin-top: 0px // height oshganda marginni to'g'rilash
+
+    &__menu
+        display: flex
+        list-style: none
+        gap: 20px
+        @include font(24px, $white ,  nova-light)
+        cursor: pointer
+        font-family: nova-regular !important
+        @media (max-width: 1290px)
+            flex-direction: column
+            justify-content: center
+            align-content: center
+            align-items: center
+            gap: 20px
+            width: 100%
+            font-size: 26px
+
+    &__course
+        width: 290px
+        height: 131.94px
+        background: #FFFFFF
+        margin-top: -50px
+        border-radius: 100px 0 0 100px
+        font-family: Proxima Nova
+        font-size: 30px
+        text-align: center
+        color: #000000
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        font-family: nova-regular
+        @media (max-width: 1290px)
+            margin-top: 0px // Adjust margin as needed
+            width: 95%
+            border-radius: 100px
+            position: relative
+            top: 180px

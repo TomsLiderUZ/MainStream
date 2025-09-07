@@ -1,0 +1,320 @@
+.about
+    width: 100%
+    background: #111111
+    padding-top: 140px
+
+    &__cards
+        display: flex
+        gap: 45px
+        justify-content: center
+        padding: 0 10px
+        align-content: center
+        align-items: center
+        @media (max-width:1245px) 
+            gap: 25px
+        @media (max-width:769px)
+            flex-direction: column
+            justify-content: center
+            align-content: center
+            align-items: center
+            gap: 30px
+            // padding-left: 30px
+
+    &__card
+        width: 100%
+        height: 1065px
+        max-width: 500px
+        background-image: url("/assets/img/about1.png")
+        background-repeat: no-repeat
+        background-size: cover
+        display: flex
+        justify-content: center
+        align-content: flex-end
+        align-items: flex-end
+        font-size: 38px
+        font-family: contrax
+        color: #FFFFFF
+        padding-bottom: 48px
+
+        @media (max-width:1630px) 
+            height: 800px
+        @media (max-width:1245px) 
+            height: 600px
+        @media (max-width:963px) 
+            height: 450px
+        @media (max-width:769px)
+            width: 90%
+            height: 700px
+            border-radius: 12px
+            background-size: cover
+            justify-content: center
+
+        &:nth-child(2)
+            background-image: url("/assets/img/about2.png")
+        &:nth-child(3)
+            background-image: url("/assets/img/about3.png")
+
+    &__services
+        margin-top: 188px
+        width: 100%
+
+    &__title
+        color: #766FB2
+        font-family: contrax
+        text-align: center
+        font-size: 94px
+        @media (max-width:769px)
+            font-size: 60px
+
+    &__mediaContainer
+        display: flex
+        flex-direction: column
+        gap: 11px
+        margin-top: 67px
+
+    &__media
+        display: flex
+        width: 100%
+        gap: 11px
+        justify-content: center
+        align-content: center
+        align-items: center
+        // margin-top: 67px
+        padding-left: 190px
+        padding-right: 190px
+        @media (max-width:769px)
+            flex-direction: column
+
+    &__name
+        width: 100%
+        max-width: 1031px
+        height: 580px
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service1.png")
+        color: #FFFFFF
+        font-family: contrax
+        font-size: 35px
+        padding-top: 34px
+        text-align: right
+        padding-right: 26px
+        @media (max-width:769px)
+            background-size: cover
+            width: 95%
+            display: none
+        &:hover
+            // transform: rotate(360deg)
+            transition: 0.3s ease
+        // background-size: cover 
+
+        &:nth-child(2)
+            background-image: url("/assets/img/service4.png")
+            text-align: left
+            padding-left: 43px
+
+        &:nth-child(3)
+            // background-image: url("/assets/img/service5.png")
+            display: none
+
+    &__nametwo
+        width: 100%
+        max-width: 1031px
+        height: 580px
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service5.png")
+        color: #FFFFFF
+        font-family: contrax
+        font-size: 35px
+        padding-top: 34px
+        text-align: right
+        padding-right: 26px
+        @media (max-width:769px)
+            background-size: cover
+            width: 95%
+            display: none
+
+    &__nameit
+        width: 100%
+        max-width: 1031px
+        height: 580px
+        background-repeat: no-repeat
+        background-image: url("/assets/img/it.png")
+        color: #FFFFFF
+        font-family: contrax
+        font-size: 35px
+        padding-top: 34px
+        text-align: left
+        padding-left: 26px
+        @media (max-width:769px)
+            background-size: cover
+            width: 95%
+            display: none
+
+    &__namelast
+        width: 100%
+        max-width: 1031px
+        height: 580px
+        background-repeat: no-repeat
+        background-image: url("/assets/img/robot.png")
+        color: #FFFFFF
+        font-family: contrax
+        font-size: 35px
+        padding-top: 34px
+        text-align: right
+        padding-right: 26px
+        @media (max-width:769px)
+            background-size: cover
+            width: 95%
+            display: none
+
+    &__info
+        display: flex
+        flex-direction: column
+        gap: 12px
+
+    &__list
+        width: 100%
+        max-width: 500px
+        height: 283px
+        background: #766FB2
+
+    &__img
+        width: 100%
+        width: 500px
+        height: 283px
+        background: #766FB2
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service2.png")
+
+    &__imgmarketing
+        width: 100%
+        width: 500px
+        height: 283px
+        background: #766FB2
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service3.png") !important
+
+    &__imgtwo
+        width: 100%
+        width: 500px
+        height: 283px
+        background: #766FB2
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service6.png")
+
+    &__imgit
+        width: 100%
+        width: 500px
+        height: 283px
+        background: #766FB2
+        background-repeat: no-repeat
+        background-image: url("/assets/img/service7.png")
+
+    &__imglast
+        width: 100%
+        width: 500px
+        height: 283px
+        background: #766FB2
+        background-repeat: no-repeat
+        background-image: url("/assets/img/robotservice.png")
+
+    &__menu
+        list-style: none
+        color: #FFFFFF
+        padding-left: 32px
+        padding-top: 38px
+        display: flex
+        flex-direction: column
+        gap: 10px
+        @media (max-width:769px)
+            padding-left: 70px
+            overflow: hidden
+
+        & li
+            font-family: contrax
+            font-size: 16px
+            @media (max-width:769px)
+                font-size: 14px
+                padding-right: 5px
+
+    &__listCont
+        display: flex
+        gap: 12px
+
+        & img
+            margin-top: 3px
+
+    &__calc
+        width: 100%
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        margin-top: 304px
+        padding-bottom: 230px
+        @media (max-width:769px)
+            margin-top: 180px
+
+    &__calcCont
+        width: 95%
+        background: #FFFFFF
+        max-width: 1543px
+        height: 239px
+        border-radius: 18px
+        display: flex
+        gap: 31px
+        justify-content: center
+        align-content: center
+        align-items: center
+        box-sizing: border-box
+        padding: 0px 20px
+        @media (max-width:769px)
+            height: auto
+            flex-direction: column
+            padding-top: 20px
+            width: 95%
+
+    &__calcBtn
+        width: 100%
+        max-width: 597.62px
+        height: 110.95px
+        background: #766FB2
+        border-radius: 12px
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        gap: 22px
+        @media (max-width:769px)
+            width: 95%
+            gap: 15px
+
+    &__icon
+        font-size: 57px
+        color: #FFFFFF
+        @media (max-width:769px)
+            font-size: 50px
+
+    &__calcText
+        color: #FFFFFF
+        font-family: contrax
+        font-size: 35px
+        @media (max-width:769px)
+            font-size: 26px
+
+    &__line
+        width: 1.69px
+        height: 108.19px
+        background: #000000
+        @media (max-width:769px)
+            display: none
+
+    &__desc
+        color: #000000
+        width: 100%
+        max-width: 658px
+        font-family: nova-regular
+        font-size: 29px
+        @media (max-width:769px)
+            font-size: 25px
+            text-align: center
+            padding-bottom: 40px

@@ -1,0 +1,58 @@
+.service
+    width: 100%
+    margin-top: 26px
+    display: flex
+    width: 100%
+    justify-content: space-between
+    @media (max-width:769px)
+        flex-direction: column
+
+    &__cont
+        width: 100%
+        max-width: 1543px
+        background-size: contain
+        height: 282px
+        background: #766FB2
+        clip-path: polygon(0 0, 100% 0%, 89% 100%, 0% 100%)
+        background-image: url("/assets/img/servicebgg.png")
+        background-repeat: no-repeat
+        color: #FFFFFF
+        font-size: 35px
+        font-family: nova-light
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        padding-right:50px
+
+        @media (max-width:1260px)
+            font-size: 28px
+
+        @media (max-width:769px)
+            width: 100%
+            clip-path: none 
+            min-height: 200px
+            height: max-content
+            font-size: 24px
+            text-align: center
+            padding-left: 10px
+            padding-right: 4px
+
+    &__text
+        width: 100%
+        max-width: 1200px
+        font-family: nova-regular
+
+    &__img
+        width: 100%
+        max-width: 503px
+        height: 282px
+        background-image: url("/assets/img/blackmode.png")
+        background-repeat: no-repeat
+        display: flex
+        justify-content: center
+        align-content: center
+        align-items: center
+        padding-left: 80px
+        @media (max-width:769px)
+            margin-top: 5px

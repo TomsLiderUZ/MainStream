@@ -1,0 +1,35 @@
+@mixin font($size, $color, $weight)
+    font-size: $size
+    color: $color
+
+    @if $weight == black
+        font-weight: 700 !important
+        font-family: Inter-Black !important
+    @else if $weight == medium
+        font-weight: 800 !important
+        font-family: Inter-Medium !important
+    @else if $weight == bold
+        font-weight: 600 !important
+        font-family: Inter-Bold !important
+    @else if $weight == regular
+        font-weight: 500 !important
+        font-family: Inter-Regular !important
+    @else if $weight == extra-bold
+        font-weight: 700 !important
+        font-family: Inter-ExtraBold !important
+    @else if $weight == extra-regularw
+        font-weight: 700 !important
+        font-family: Inter-ExtraRegular !important
+    @else if $weight == thin
+        font-weight: 500 !important
+        font-family: Inter-Thin !important
+    @else if $weight == Inter-bold
+    @else if $weight == light
+        font-weight: 200 !important
+        font-family: Inter-Light !important
+    @else if $weight == Inter-bold
+        font-weight: 500 !important
+        font-family: Inter-Bold !important
+    @else if $weight == Inter-semibold
+        font-weight: 800 !important
+        font-family: Inter-SemiBold !important

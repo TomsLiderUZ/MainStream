@@ -1,0 +1,150 @@
+// components/ContactForm.module.sass
+
+.container
+    width: 100%
+    // max-width: 1980px
+    display: flex
+    justify-content: center
+    align-content: center
+    align-items: center
+    background: #111111
+    padding-bottom: 157px
+    @media (max-width:769px)
+        margin-top: -100px
+
+.content
+    display: flex
+    width: 95%
+    max-width: 1543px
+    height: 581px
+    border-radius: 12px
+    background: #766FB2
+    // // border-top-left-radius: 12px
+    // border-bottom-left-radius: 12px
+    // border-top-right-radius: 12px
+    // border-top-right-radius: 12px
+    border: none
+    @media (max-width:769px)
+        flex-direction: column
+        height: auto
+        padding-bottom: 20px
+        justify-content: center
+        align-content: center
+        align-items: center
+
+.info
+    width: 100%
+    max-width: 937px
+    background: #FFFFFFFF
+    border-top-left-radius: 12px
+    border-bottom-left-radius: 12px
+    // border-top-right-radius: 12px
+    // border-top-right-radius: 12px
+    padding-left: 69px
+    @media (max-width:1090px)
+        padding-left: 45px
+    @media (max-width:769px)
+        // width: 95%
+        padding-left: 0
+        display: flex
+        flex-direction: column
+        align-content: center
+        justify-content: center
+        align-items: center
+        border-radius: 12px
+
+    &__logo
+        margin-top: 257px
+        position: absolute
+        bottom: 20px
+        @media (max-width:1090px)
+            width: 250px
+        @media (max-width:769px)
+            width: 356px
+            position: static
+            bottom: static
+            margin-top: 80px
+            margin-bottom: 20px
+        @media (max-width:400px)
+            width: 230px
+
+    &__title
+        margin-bottom: 0.5rem
+        color: #000000
+        font-size: 65px
+        font-family: nova-regular
+        padding-top: 57px
+        @media (max-width:1090px)
+            font-size: 60px
+        @media (max-width:769px)
+            font-size: 40px
+            text-align: center
+        @media (max-width:400px)
+            font-size: 30px
+
+    &__description
+        color: #000000
+        font-size: 24px
+        font-family: nova-regular
+        width: 100%
+        max-width: 700px
+        @media (max-width:1090px)
+            font-size: 21px
+        @media (max-width:769px)
+            font-size: 22px
+            text-align: center
+            padding-top: 5px
+        @media (max-width:400px)
+            font-size: 18px
+
+.form
+    width: 100%
+    max-width: 740px
+    // border-top-left-radius: 12px
+    // border-bottom-left-radius: 12px
+    // border-top-right-radius: 12px
+    // border-top-right-radius: 12px
+    display: flex
+    flex-direction: column
+    justify-content: center
+    align-content: center
+    align-items: center
+    gap: 60px
+    owerflow: hidden
+    @media (max-width:769px)
+        margin-top: 100px
+        width: 95%
+
+    &__input
+        width: 100% !important
+        // width: 600px !important
+        border-left: none
+        border-right: none
+        border-bottom: none
+        text-align: center !important
+        outline: none
+        color: #5B539D !important
+        // padding-left: 100px
+        font-size: 43px !important
+        border-color: #FFFFFF !important
+        outline-color: #FFFFFF !important
+        @media (max-width:769px)
+            width: 95% !important
+            font-size: 30px
+            text-align: left !important
+            // padding-left: -500px !important
+
+    &__submit
+        width: 95% !important
+        max-width: 517.72px !important
+        height: 96.12px !important
+        background: #FFFFFF !important
+        border-radius: 12px !important
+        border: none
+        color: #766FB2 !important
+        font-family: Arial, Helvetica, sans-serif !important
+        font-size: 34px !important
+        @media (max-width:769px)
+            margin-bottom: 30px
+            width: 95%
+        // margin-left: 100px

@@ -1,0 +1,106 @@
+{
+    "menu": {
+        "company": "Kompaniya haqida",
+        "services": "Xizmatlar",
+        "cases": "Misol",
+        "contact": "Aloqa",
+        "courses": "Kurslar"
+    },
+    "statistic": {
+        "info": "Mainstream - har bir tafsiloti tamomiyatga ega bo'lgan, mijozlarimizning yuqori natijalariga erishish uchun har bir tafsilotni isyon qilgan tez rivojlanayotgan to'liq jarayonli agentlik.",
+        "name": "Mainstream",
+        "innumbers": "raqamlarda",
+        "market": "Bozorda YILLAR",
+        "filial": "FILIALLAR DUNYODA (UZB, UAE, TURKIYA , USA)",
+        "projects": "MUVAFFAQIYATLI LOYIHALAR",
+        "advertising": "REKLAM MATNALAR",
+        "employees": "XODIMLAR",
+        "lead": "QO'LGA KELGAN OLUVCHILAR",
+        "videos": "VIDEOROLIKLARIMIZDA KO'RILGAN KURSIY",
+        "followers": "MIJOZLARIMIZ TO'MONIDAN KELGAN HAQIQI OBUNACHILAR",
+        "cost": "Havola orqali O'TISH NARXI",
+        "trust": "Bizga ishoniladi",
+        "partnership": "Bizning kompaniyamizning qadriyatlariga uzun o'rtiqcha va foydali hamkorlikdir.",
+        "instagram": "Bizning agentlik instagram sahifasidagi ishlar haqida batafsil ma'lumotlar",
+        "workStages": {
+            "title": "Ish bosqichlari",
+            "audit": "Sizning biznesingizni sinov qilish",
+            "budjet": "Reklamga ajratiladigan byudjetni aniqlash",
+            "KPI": "Maqsadlarni va KPI ko'rsatkichlarini aniqlash",
+            "media": "Reklam strategiyasini va ish rejasi, kontseptsiyani va media rejalashtiruvini ishlab chiqamiz",
+            "implementation": "Amalga oshirishga boshlaymiz",
+            "regulations": "Har bir loyihamiz xodimlarimizning har bir sohada tajribasi bilan professional ravishda bajariladi. Biz har bir doimiy sohaga oid chet el vaqtinchalik aniqlangan va buni bajarish uchun mas'uliyatni yuklaymiz."
+        },
+        "workcycle": {
+            "create": "Yaratamiz",
+            "realling": "Amalga oshiramiz",
+            "promotion": "Reklama qilamiz"
+        },
+        "services": {
+            "title": "Xizmatlar",
+            "design": "Dizayn",
+            "posts": "Ijtimoiy tarmoqlar uchun postlar",
+            "motion": "Harakat rasm va videolar",
+            "branding": "Brendlash",
+            "advertising": "Tashqi reklama dizayni",
+            "modeling": "3D modellash",
+            "vfx": "VFX - videolar",
+            "printProduct": "Chop etiladigan mahsulot dizayni",
+            "marketing": "Marketing",
+            "strategy": "Marketing strategiyasi",
+            "target": "Reklamaning maqsadi",
+            "smm": "SMM - boshqaruv",
+            "copywriting": "Copywriting",
+            "analytic": "Analitika",
+            "brand": "Shaxsiy brendning rivojlanishi",
+            "influence": "Influens marketing",
+            "video": "Video-tayyorlash",
+            "shooting": "Professional video-shooting",
+            "photo": "Professional fotosessiya",
+            "reels": "Reels-videolar (Mobilografiya)",
+            "commercials": "Reklama roliklarini qayta olish",
+            "storymaking": "Hikoya yaratish",
+            "dron": "Dron bilan qo'lga kiritish",
+            "editing": "Montaj",
+            "IT": "IT-integratsiya",
+            "landing": "Bir sahifali sayt",
+            "corporate": "Korporativ sayt",
+            "seo": "SEO-optimalizatsiya",
+            "banner": "Banner reklama",
+            "app": "Dastur",
+            "search": "Xavfsizlik qidiruv va davolash",
+            "bot": "Telegram-bot",
+            "development": "Telegram-botlar ishlab chiqish",
+            "appConect": "Integratsiya bot yaratish",
+            "traffic": "Trafik arbitraj",
+            "technicial": "Bot texnik xodimi",
+            "chatbots": "Chat-botlar (Instagram, Telegram)",
+            "integration": "AI integratsiya",
+            "calc": "Xizmatlar kalkulyatori",
+            "onlineCalc": "Onlayn kalkulyator sizning qiziqarli xizmatlaringiz narxini hisoblashga yordam beradi",
+          
+          
+            "navbar": {
+                "menuOne": "Header",
+                "menuTwo": "About us",
+                "menuThree": "Contact",
+                "menuLast": "Form",
+                "footerName": "footer line ",
+                "aboutNameKey": "  "
+            }
+        }
+    },
+    "form": {
+        "question": "Savollaringiz qoldimi?",
+        "contact": "Aloqani qoldiring, bizning menejerlar aloqa qilishadi va maslahat berishadi",
+        "name": "Ruslan Mariatry",
+        "nameCompany": "Kompaniya nomi",
+        "send": "Yuborish"
+    },
+    "footer": {
+        "adress": "O'zbekiston, Toshkent sh., Chilonzor 3, 44/1",
+        "reserved": "Huquqlar himoyalangan Mainstream Global",
+        "showOff": "Ruslan Mariyarti tomonidan dizayn qilingan"
+    }
+    
+}

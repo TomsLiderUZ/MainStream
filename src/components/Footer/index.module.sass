@@ -1,0 +1,133 @@
+@import "../../styles/variables"
+@import "../../styles/mixins"
+
+.footer
+    width: 100%
+    background: #766FB2
+    color: $white
+    height: 300px
+    margin-top: 100px
+    display: flex
+    padding-left: 95px
+    overflow: hidden
+    justify-content: space-between
+    @media (max-width: 769px)
+        flex-direction: column
+        padding-left: 0
+        // gap: 50px
+        justify-content: center
+        align-content: center
+        align-items: center 
+        height: 395px
+        margin-top: 50px
+
+    &__location
+        display: flex
+        color: #FFFFFF
+        flex-direction: column
+        padding-top: 80px
+        @media (max-width: 769px)
+            padding-top: 70px
+            margin-bottom: 30px
+
+    &__number
+        font-family: contrax
+        font-size: 33px
+        @media (max-width: 769px)
+            font-size: 26px
+            text-align: center
+        &:last-child
+            padding-top: 7px
+
+    &__email
+        font-family: nova-regular
+        font-size: 32px
+        padding-top: 7px
+        @media (max-width: 769px)
+            font-size: 24px
+            text-align: center
+
+    &__adress
+        font-size: 25px
+        font-family: nova-regular
+        width: 100%
+        @media (max-width: 769px)
+            font-size: 22px
+            text-align: center
+
+    &__social
+        width: 100%
+        max-width: 1000px
+        // clip-path: polygon(50% 9%, 59% 0%, 120% 100%, -7% 100%)
+        background-repeat: no-repeat
+        background: #000000
+        margin-top: -100px
+        margin-left: -150px
+        display: flex
+        flex-direction: column
+        justify-content: center
+        align-content: center
+        align-items: center
+        padding-right: 0
+        padding-top: 80px
+        // padding-bottom: 100px
+        padding-left: 80px
+        clip-path: polygon(12% 0, 100% 0%, 100% 100%, 0 100%)
+        @media (max-width:769px)
+            width: 100%
+            clip-path: none
+            padding-top: 0
+            margin-left: 0
+            margin-top: 0
+            margin-bottom: 50px
+            padding-left: 0
+
+    &__text
+        font-size: 16px
+        font-family: nova-regular
+        display: flex
+        flex-direction: column
+        gap: 6px
+        padding-top: 25px
+        text-align: center
+        @media (max-width:769px)
+            // padding-bottom: 30px
+
+    &__menu
+        display: flex
+        flex-direction: column
+        gap: 6px
+        padding-top: 94px
+        // padding-left: 205px
+
+        & ul
+            list-style: none
+            gap: 6px
+            display: flex
+            flex-direction: column
+            font-family: nova-regular
+            font-size: 32px
+
+            & li
+                cursor: pointer
+                text-align: right
+
+    &__icons
+        display: flex
+        margin-top: -10px
+        // margin-top: 40px
+        // display: none
+        gap: 12px
+
+        & img
+            cursor: pointer
+
+    &__streamlogo
+        margin-left: 500px
+        margin-top: 50px
+        // image-orientation: from-image
+        @media (max-width:769px)
+            margin-left: 0
+            margin-top: 30px
+            margin-bottom: 20px
+            // margin-top: 0

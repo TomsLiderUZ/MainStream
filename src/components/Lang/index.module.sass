@@ -1,0 +1,71 @@
+@import "../../styles/variables"
+
+.lang
+    display: flex
+    justify-content: center
+    margin-top: 5px
+
+    font-family: nova-regular
+    width: 66px
+    height: 66px
+    @media (max-width:769px)
+        // padding-top: 100px
+
+    &__select
+        position: relative
+        display: inline-block
+        cursor: pointer
+        width: 66px
+        height: 66px
+        transition: transform 0.3s ease // Animatsiya uchun o'zgartirishlar
+        @media (max-width:769px)
+            margin-top: 40px
+            width: 100px
+            height: 100px
+
+    &__select.animateOut
+        transform: translateY(-20px) // Tepaga animatsiyasi
+
+    &__selected
+        background: $black
+        border-radius: 100%
+        color: $white
+        padding: 14px 14px 17px 14px
+        width: 66px
+        height: 66px
+        text-align: center
+        // margin-right: 10px  
+        transition: background-color 0.1s ease // Animatsiya uchun o'zgartirishlar
+        @media (max-width:769px)
+            width: 100px
+            height: 100px
+            padding: 22px 22px 24px 22px
+
+    &__options
+        position: absolute
+        top: 100%
+        left: 0
+        background: $black
+        border-radius: 5px
+        padding: 14px
+        display: flex
+        flex-direction: column
+        width: 100px
+        opacity: 0
+        pointer-events: none
+        transition: opacity 0.1s ease // Animatsiya uchun o'zgartirishlar
+        transform: translateY(-22px)
+
+    &__select:hover .lang__options
+        // opacity: 1
+        // pointer-events: auto
+
+    &__options span
+        color: $white
+        padding: 5px
+        font-family: nova-black
+        cursor: pointer
+        transform: translateY(-20px)
+
+    &__options span:hover
+        background: darken($black, 20%)

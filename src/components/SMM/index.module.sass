@@ -1,0 +1,28 @@
+@import "../../styles/variables"
+@import "../../styles/mixins"
+
+.container
+    display: flex
+    width: 100%
+    justify-content: center
+    align-content: center
+    align-items: center
+    position: relative
+    z-index: 2
+    background-color: #9d98e6
+
+    &__smm
+        width: 100%
+        max-width: 1920px
+        height: 100vh
+        display: flex
+        justify-content: center
+        align-items: center
+        overflow: hidden
+        position: relative
+
+        video
+            width: 1920px
+            height: 100vh
+            user-select: none
+            pointer-events: none

@@ -1,0 +1,132 @@
+@import "../../styles/variables"
+@import "../../styles/mixins"
+
+.partners
+  margin-top: 122px
+  width: 100%
+  height: 858px
+  background: #0A0A0A
+
+  @media (max-width: 769px)
+    margin-top: 80px
+    // height: auto
+
+  @media (max-width: 437px)
+    height: 920px
+
+  @media (max-width: 296px)
+    height: 1050px
+
+  &__title
+    font-size: 53px
+    color: #FFFFFF
+    font-family: nova-regular
+    padding-top: 75px
+    padding-left: 113px
+
+    @media (max-width: 769px)
+      font-size: 40px
+      text-align: center
+      padding-left: 0
+
+  &__carousel
+    display: flex
+    flex-direction: column
+    margin-top: 42px
+    gap: 20px
+
+    @media (max-width: 769px)
+      gap: 20px
+
+  &__slideone, &__slidetwo
+    width: 100%
+    height: 135px
+    background-repeat: repeat-x
+    background-size: cover
+    animation-timing-function: linear
+    animation-iteration-count: infinite
+
+  &__slideone
+    background-image: url('/assets/img/clients1.png'), url('/assets/img/clients1.png')
+    animation: slideoneAnimation 13s linear infinite
+    @media (max-width:769px)
+        animation-duration: 22s
+
+  &__slidetwo
+    background-image: url('/assets/img/clients2.png'), url('/assets/img/clients2.png')
+    animation: slidetwoAnimation 13s linear infinite
+    @media (max-width:769px)
+        animation-duration: 22s
+
+  @keyframes slideoneAnimation
+    0%
+      background-position: 0 0, 100% 0
+    100%
+      background-position: -100% 0, 0 0
+
+  @keyframes slidetwoAnimation
+    0%
+      background-position: 0 0, -100% 0
+    100%
+      background-position: 100% 0, 0 0
+
+  &__desc
+    color: #FFFFFF
+    font-size: 40px
+    text-align: center
+    padding-top: 45px
+    font-family: nova-regular
+
+    @media (max-width: 769px)
+      font-size: 30px
+      padding-top: 30px
+
+  &__section
+    display: flex
+    margin-top: 90px
+    justify-content: center
+    align-items: center
+
+    @media (max-width: 769px)
+      flex-direction: column
+      gap: 25px
+      justify-content: center
+      align-content: center
+      align-items: center
+
+  &__line
+    width: 3.39px
+    height: 67.05px
+    background: #FFFFFF
+    margin-left: 38px
+
+    @media (max-width: 769px)
+      display: none
+
+  &__insta
+    width: 100%
+    max-width: 493.42px
+    background: #766FB2
+    min-height: 92.47px
+    height: max-content
+    padding-bottom: 15px
+    border-radius: 15px
+    border: none
+    margin-left: 22px
+    display: flex
+    gap: 17px
+    @media (max-width:769px)
+        width: 90%
+        margin-left: 0
+
+  &__icon
+    font-size: 70px
+    color: #FFFFFF
+    margin-top: 11px
+    margin-left: 18px
+
+  &__text
+    color: #FFFFFF
+    font-size: 22px
+    font-family: nova-regular
+    padding-top: 21px
